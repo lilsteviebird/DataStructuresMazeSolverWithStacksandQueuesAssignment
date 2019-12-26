@@ -8,10 +8,13 @@
 
 #import <SpriteKit/SpriteKit.h>
 #import <GameplayKit/GameplayKit.h>
+#import "MazeSolver.h"
 
-@interface GameScene : SKScene
+@interface GameScene : SKScene <MazeSolverDelegate>
 
+@property (nonatomic) MazeSolver *myMazeSolver;
 @property (nonatomic) NSMutableArray<GKEntity *> *entities;
 @property (nonatomic) NSMutableDictionary<NSString*, GKGraph *> *graphs;
+-(void) drawMaze: (NSMutableArray*) mazeGiven;
 
 @end

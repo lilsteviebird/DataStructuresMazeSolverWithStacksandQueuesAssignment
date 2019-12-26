@@ -17,6 +17,13 @@
 		3F50942821A9D19B00F38EBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F50942721A9D19B00F38EBD /* main.m */; };
 		3F50943321A9D19B00F38EBD /* RealMazeSolverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F50943221A9D19B00F38EBD /* RealMazeSolverTests.m */; };
 		3F50943E21A9D19B00F38EBD /* RealMazeSolverUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F50943D21A9D19B00F38EBD /* RealMazeSolverUITests.m */; };
+		3F50944C21A9D1D300F38EBD /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F50944B21A9D1D300F38EBD /* Stack.m */; };
+		3F50945521A9D22A00F38EBD /* Maze.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F50945421A9D22A00F38EBD /* Maze.m */; };
+		3F50945821A9D24000F38EBD /* MazeSolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F50945721A9D24000F38EBD /* MazeSolver.m */; };
+		3F50945B21A9D3A800F38EBD /* smallMaze.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3F50945A21A9D3A800F38EBD /* smallMaze.txt */; };
+		3F50945D21A9D66500F38EBD /* PointAdded.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F50945C21A9D66500F38EBD /* PointAdded.m */; };
+		3F50946021A9D85500F38EBD /* NewNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F50945F21A9D85500F38EBD /* NewNode.m */; };
+		3F61ED5B21B6F07F009561FF /* Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F61ED5A21B6F07F009561FF /* Queue.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +64,19 @@
 		3F50943921A9D19B00F38EBD /* RealMazeSolverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealMazeSolverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F50943D21A9D19B00F38EBD /* RealMazeSolverUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RealMazeSolverUITests.m; sourceTree = "<group>"; };
 		3F50943F21A9D19B00F38EBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F50944B21A9D1D300F38EBD /* Stack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Stack.m; sourceTree = "<group>"; };
+		3F50944D21A9D1EA00F38EBD /* Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
+		3F50945421A9D22A00F38EBD /* Maze.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Maze.m; sourceTree = "<group>"; };
+		3F50945621A9D23500F38EBD /* Maze.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Maze.h; sourceTree = "<group>"; };
+		3F50945721A9D24000F38EBD /* MazeSolver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MazeSolver.m; sourceTree = "<group>"; };
+		3F50945921A9D25500F38EBD /* MazeSolver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MazeSolver.h; sourceTree = "<group>"; };
+		3F50945A21A9D3A800F38EBD /* smallMaze.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = smallMaze.txt; sourceTree = "<group>"; };
+		3F50945C21A9D66500F38EBD /* PointAdded.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PointAdded.m; sourceTree = "<group>"; };
+		3F50945E21A9D67300F38EBD /* PointAdded.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PointAdded.h; sourceTree = "<group>"; };
+		3F50945F21A9D85500F38EBD /* NewNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewNode.m; sourceTree = "<group>"; };
+		3F50946121A9D86100F38EBD /* NewNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewNode.h; sourceTree = "<group>"; };
+		3F61ED5A21B6F07F009561FF /* Queue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Queue.m; sourceTree = "<group>"; };
+		3F61ED5C21B6F08A009561FF /* Queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +139,19 @@
 				3F50942321A9D19B00F38EBD /* Main.storyboard */,
 				3F50942621A9D19B00F38EBD /* Info.plist */,
 				3F50942721A9D19B00F38EBD /* main.m */,
+				3F50944B21A9D1D300F38EBD /* Stack.m */,
+				3F50944D21A9D1EA00F38EBD /* Stack.h */,
+				3F61ED5A21B6F07F009561FF /* Queue.m */,
+				3F61ED5C21B6F08A009561FF /* Queue.h */,
+				3F50945F21A9D85500F38EBD /* NewNode.m */,
+				3F50946121A9D86100F38EBD /* NewNode.h */,
+				3F50945C21A9D66500F38EBD /* PointAdded.m */,
+				3F50945E21A9D67300F38EBD /* PointAdded.h */,
+				3F50945421A9D22A00F38EBD /* Maze.m */,
+				3F50945621A9D23500F38EBD /* Maze.h */,
+				3F50945721A9D24000F38EBD /* MazeSolver.m */,
+				3F50945921A9D25500F38EBD /* MazeSolver.h */,
+				3F50945A21A9D3A800F38EBD /* smallMaze.txt */,
 				3F50942921A9D19B00F38EBD /* RealMazeSolver.entitlements */,
 			);
 			path = RealMazeSolver;
@@ -247,6 +280,7 @@
 			files = (
 				3F50941821A9D19100F38EBD /* GameScene.sks in Resources */,
 				3F50942221A9D19B00F38EBD /* Assets.xcassets in Resources */,
+				3F50945B21A9D3A800F38EBD /* smallMaze.txt in Resources */,
 				3F50941A21A9D19100F38EBD /* Actions.sks in Resources */,
 				3F50942521A9D19B00F38EBD /* Main.storyboard in Resources */,
 			);
@@ -273,10 +307,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F50945821A9D24000F38EBD /* MazeSolver.m in Sources */,
 				3F50942021A9D19100F38EBD /* ViewController.m in Sources */,
 				3F50941D21A9D19100F38EBD /* GameScene.m in Sources */,
 				3F50942821A9D19B00F38EBD /* main.m in Sources */,
+				3F50944C21A9D1D300F38EBD /* Stack.m in Sources */,
+				3F61ED5B21B6F07F009561FF /* Queue.m in Sources */,
 				3F50941621A9D19100F38EBD /* AppDelegate.m in Sources */,
+				3F50945D21A9D66500F38EBD /* PointAdded.m in Sources */,
+				3F50945521A9D22A00F38EBD /* Maze.m in Sources */,
+				3F50946021A9D85500F38EBD /* NewNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
